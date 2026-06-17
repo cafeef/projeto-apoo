@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {7}DIAGRAMAS DE ATIVIDADES}{55}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Operação calcularNota() — Classe JogoMemoria \\ \normalfont \small [Visão de Projeto]}{56}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Caso de Uso: Cadastrar Explorador \\ \normalfont \small [Visão de Casos de Uso]}{58}{subsection.7.2}%
-\contentsline {section}{\numberline {8}DIAGRAMAS DE ESTADO}{59}{section.8}%
+\contentsline {section}{\numberline {8}DIAGRAMAS DE ESTADO}{60}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Classe Missao}{60}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Classe Explorador}{61}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.2}Classe Explorador}{62}{subsection.8.2}%
 \contentsline {section}{\numberline {9}DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL}{64}{section.9}%
