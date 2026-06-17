@@ -1,0 +1,29 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {section}{\numberline {1}DESCRIÇÃO DO SISTEMA}{1}{section.1}%
+\contentsline {section}{\numberline {2}PROTOTIPAÇÃO DO SISTEMA}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}INTERFACES DO PERFIL ALUNO (EXPLORADOR)}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}INTERFACES DO PERFIL ADMINISTRATIVO}{14}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Mestre da Jornada}{14}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Guardião (Pedagogo)}{31}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}DIAGRAMA DE CASOS DE USO}{36}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Perfil Explorador (Aluno)}{37}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Perfil Mestre da Jornada (Professor)}{40}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Perfil Pedagogo (Guardião)}{43}{subsection.3.3}%
+\contentsline {section}{\numberline {4}DIAGRAMA DE CLASSES}{45}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hierarquia de Usuários}{45}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Identidade, Acesso e Personalização}{46}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Turmas e Habilidades}{46}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Missões e Atividades}{46}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Emblemas e Relatórios}{47}{subsection.4.5}%
+\contentsline {section}{\numberline {5}DIAGRAMAS DE SEQUÊNCIA}{49}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Login do Explorador via NFC/QR Code}{50}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Cadastrar Turma}{51}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Alterar Avatar}{53}{subsection.5.3}%
+\contentsline {section}{\numberline {6}DIAGRAMA DE COMUNICAÇÃO}{54}{section.6}%
+\contentsline {section}{\numberline {7}DIAGRAMAS DE ATIVIDADES}{55}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Operação calcularNota() — Classe JogoMemoria \\ \normalfont \small [Visão de Projeto]}{56}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Caso de Uso: Cadastrar Explorador \\ \normalfont \small [Visão de Casos de Uso]}{58}{subsection.7.2}%
+\contentsline {section}{\numberline {8}DIAGRAMAS DE ESTADO}{59}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Classe Missao}{60}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Classe Explorador}{61}{subsection.8.2}%
+\contentsline {section}{\numberline {9}DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL}{64}{section.9}%
