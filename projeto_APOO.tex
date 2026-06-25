@@ -113,7 +113,7 @@
     \vfill
  
     PONTA GROSSA\\[0.2cm]
-    MÊS/2026
+    JUNHO/2026
     \vspace{1cm}
   \end{center}
  
@@ -788,13 +788,6 @@ funcionalidades e comportamentos opcionais dentro do fluxo principal de interaç
 
 \begin{figure}[H]
     \centering
-    \caption*{Organização do Modelo de Casos de Uso --- Perfil Explorador (Aluno).}
-    \includegraphics[width=0.45\textwidth]{diagramas/arvore-explorador.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
     \caption*{Diagrama de Casos de Uso --- Perfil Explorador (Aluno).}
     \includegraphics[width=0.72\textwidth]{diagramas/cu-explorador.png}
     \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
@@ -831,8 +824,15 @@ funcionalidades e comportamentos opcionais dentro do fluxo principal de interaç
  
     \item \textbf{CU29 --- Fazer Logout:} Finaliza a sessão do usuário na plataforma.
 \end{itemize}
- 
- 
+
+\begin{figure}[H]
+    \centering
+    \caption*{Organização do Modelo de Casos de Uso --- Perfil Explorador (Aluno).}
+    \includegraphics[width=0.45\textwidth]{diagramas/arvore-explorador.png}
+    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
+\end{figure}
+
+
 \newpage
 \subsection{Perfil Mestre da Jornada (Professor)}
 
@@ -843,13 +843,6 @@ educacionais disponibilizadas na plataforma.
 Este perfil possui funcionalidades relacionadas à organização das turmas, criação e
 gerenciamento de conteúdos extraclasses, correção de atividades e acompanhamento do
 desenvolvimento dos alunos por meio de relatórios e cartas de progresso.
-
-\begin{figure}[H]
-    \centering
-    \caption*{Organização do Modelo de Casos de Uso --- Perfil Mestre da Jornada (Professor).}
-    \includegraphics[width=0.45\textwidth]{diagramas/arvore-mestre.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
-\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -885,7 +878,14 @@ desenvolvimento dos alunos por meio de relatórios e cartas de progresso.
 
     \item \textbf{CU29 --- Fazer Logout:} Finaliza a sessão do usuário na plataforma.
 \end{itemize}
- 
+
+\begin{figure}[H]
+    \centering
+    \caption*{Organização do Modelo de Casos de Uso --- Perfil Mestre da Jornada (Professor).}
+    \includegraphics[width=0.45\textwidth]{diagramas/arvore-mestre.png}
+    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
+\end{figure}
+
 \newpage
 \subsection{Perfil Pedagogo (Guardião)}
 
@@ -896,13 +896,6 @@ de usuários e acompanhamento estratégico do ambiente educacional.
 As funcionalidades disponibilizadas ao pedagogo permitem análise de desempenho,
 cadastro de exploradores, professores e turmas, além da visualização de indicadores
 analíticos do sistema.
-
-\begin{figure}[H]
-    \centering
-    \caption*{Organização do Modelo de Casos de Uso --- Perfil Pedagogo (Guardião).}
-    \includegraphics[width=0.45\textwidth]{diagramas/arvore-guardiao.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
-\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -930,8 +923,264 @@ analíticos do sistema.
 
     \item \textbf{CU29 --- Fazer Logout:} Finaliza a sessão do usuário na plataforma.
 \end{itemize}
- 
- 
+
+\begin{figure}[H]
+    \centering
+    \caption*{Organização do Modelo de Casos de Uso --- Perfil Pedagogo (Guardião).}
+    \includegraphics[width=0.45\textwidth]{diagramas/arvore-guardiao.png}
+    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
+\end{figure}
+
+% ============================================================
+\newpage
+\subsection{Cenários dos Casos de Uso}
+% ============================================================
+
+Esta subseção apresenta os cenários detalhados de cinco casos de uso distintos do
+sistema, abrangendo perfis e funcionalidades diferentes entre si. Quando uma etapa
+do Fluxo Principal pode desencadear um Fluxo Alternativo, ela é sinalizada com
+\textbf{[Ax]}, onde \textbf{x} é o número do respectivo Fluxo Alternativo.
+
+% ----- CENÁRIO 1 -----
+\subsubsection*{Cenário 1 --- CU01: Acessar via NFC ou QR Code}
+
+\noindent\textbf{Ator principal:} Explorador (Aluno)
+
+\noindent\textbf{Pré-condição:} O Explorador possui pulseira NFC ou QR Code cadastrado pelo
+Mestre da Jornada ou Pedagogo; o dispositivo leitor (tablet ou totem) está em
+funcionamento e conectado ao sistema.
+
+\noindent\textbf{Pós-condição:} Sessão do Explorador iniciada e Mural do Explorador exibido
+com avatar, nível atual e módulos de navegação disponíveis.
+
+\noindent\textbf{Relacionamentos UML:} \textit{<<include>>} Validar Identidade Digital
+
+\medskip
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+    \item O Explorador aproxima a pulseira NFC do sensor ou posiciona o QR Code em frente à câmera do dispositivo. \textbf{[A1]} \textbf{[A2]}
+    \item O dispositivo captura o código de identificação e o encaminha ao sistema.
+    \item O sistema executa \textit{<<include>>} Validar Identidade Digital: consulta o código na base de dados da classe \textit{IdentidadeDigital}. \textbf{[A1]}
+    \item O sistema localiza o Explorador associado à credencial validada.
+    \item O sistema inicializa a sessão e carrega o perfil e o progresso do Explorador.
+    \item O sistema exibe o Mural do Explorador com avatar, nível e módulos disponíveis.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 1 --- Credencial não reconhecida} (inicia no passo 3):
+\begin{enumerate}
+    \item O sistema não localiza registro correspondente ao código capturado na base de \textit{IdentidadeDigital}.
+    \item O sistema exibe: ``Código não reconhecido. Verifique a pulseira ou solicite ajuda ao Mestre da Jornada.''
+    \item O sistema retorna à tela de acesso sem iniciar sessão.
+    \item O caso de uso é encerrado.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 2 --- Inserção manual do código} (inicia no passo 1):
+\begin{enumerate}
+    \item O Explorador seleciona a opção ``Inserir código manualmente'' na tela de acesso.
+    \item O sistema exibe campo de entrada numérica.
+    \item O Explorador digita o código de resgate fornecido pelo responsável ou pelo Mestre.
+    \item O fluxo retorna ao passo 3 do Fluxo Principal.
+\end{enumerate}
+
+\bigskip
+
+% ----- CENÁRIO 2 -----
+\subsubsection*{Cenário 2 --- CU28: Cadastrar Turma}
+
+\noindent\textbf{Ator principal:} Pedagogo (Guardião)
+
+\noindent\textbf{Pré-condição:} O Pedagogo está autenticado no sistema e existe pelo menos
+um Mestre da Jornada cadastrado na plataforma.
+
+\noindent\textbf{Pós-condição:} Nova turma criada no sistema com limite padrão de dez
+Exploradores e Mestre responsável vinculado.
+
+\noindent\textbf{Relacionamentos UML:} \textit{<<include>>} Verificar Disponibilidade do Mestre
+(CU27); \textit{<<extend>>} Cadastrar Explorador (CU30) --- o Pedagogo pode cadastrar
+Exploradores imediatamente após criar a turma.
+
+\medskip
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+    \item O Pedagogo acessa o menu ``Cadastrar Turma'' na Área Administrativa. \textbf{[A1]}
+    \item O sistema exibe formulário com campos: nome da turma, ano/série escolar, turno e Mestre responsável.
+    \item O Pedagogo preenche nome, ano/série e turno. \textbf{[A2]}
+    \item O Pedagogo seleciona o Mestre da Jornada responsável pela turma.
+    \item O sistema executa \textit{<<include>>} Verificar Disponibilidade do Mestre: confirma que o Mestre não possui conflito de turno. \textbf{[A3]}
+    \item O Pedagogo adiciona Exploradores disponíveis à turma (máximo de dez).
+    \item O Pedagogo confirma em ``Criar Turma''.
+    \item O sistema valida os dados, instancia o objeto \textit{Turma} e registra o cadastro.
+    \item O sistema exibe confirmação de sucesso e retorna ao menu administrativo.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 1 --- Nenhum Mestre cadastrado} (inicia no passo 1):
+\begin{enumerate}
+    \item O sistema detecta que não há Mestres da Jornada cadastrados na plataforma.
+    \item O sistema exibe alerta: ``Nenhum Mestre disponível. Cadastre um Mestre antes de criar uma turma.''
+    \item O sistema redireciona o Pedagogo para o formulário de Cadastrar Mestre da Jornada (CU27).
+    \item O caso de uso é encerrado (pode ser reiniciado após o cadastro do Mestre).
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 2 --- Campos obrigatórios não preenchidos} (inicia no passo 3):
+\begin{enumerate}
+    \item O Pedagogo tenta confirmar sem preencher o nome ou sem selecionar turno/ano.
+    \item O sistema mantém o botão ``Criar Turma'' desabilitado e destaca os campos obrigatórios.
+    \item O fluxo retorna ao passo 3 do Fluxo Principal.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 3 --- Mestre com conflito de turno} (inicia no passo 5):
+\begin{enumerate}
+    \item O sistema identifica que o Mestre selecionado já está vinculado a outra turma no mesmo turno.
+    \item O sistema exibe aviso: ``Este Mestre já possui turma no turno selecionado. Escolha outro Mestre ou altere o turno.''
+    \item O fluxo retorna ao passo 4 do Fluxo Principal.
+\end{enumerate}
+
+\bigskip
+
+% ----- CENÁRIO 3 -----
+\subsubsection*{Cenário 3 --- CU22: Gerar Carta de Progresso (IA)}
+
+\noindent\textbf{Ator principal:} Mestre da Jornada (Professor)
+
+\noindent\textbf{Pré-condição:} O Mestre está autenticado no sistema. O Explorador
+selecionado possui pelo menos um registro de atividade realizada no
+\textit{DiarioExplorador}.
+
+\noindent\textbf{Pós-condição:} Carta de Progresso gerada pela Inteligência Artificial e
+disponibilizada ao Mestre para envio ao responsável.
+
+\noindent\textbf{Relacionamentos UML:} \textit{<<include>>} Consultar Histórico do Explorador
+(CU32); acionado como extensão de CU15 Consultar Turma (\textit{<<extend>>}).
+
+\medskip
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+    \item O Mestre acessa ``Visão de Turmas'' e localiza o Explorador desejado. \textbf{[A2]}
+    \item O Mestre clica em ``CARTA IA'' ao lado do nome do Explorador.
+    \item O sistema exibe janela modal com o nome do Explorador e opções de período: Semanal, Mensal ou Trimestral.
+    \item O Mestre seleciona o período desejado e clica em ``Gerar Carta''. \textbf{[A1]}
+    \item O sistema executa \textit{<<include>>} Consultar Histórico do Explorador (CU32): recupera registros de missões, emblemas e avaliações do período selecionado.
+    \item O sistema processa os dados com suporte de Inteligência Artificial e compõe o texto personalizado da Carta de Progresso. \textbf{[A3]}
+    \item O sistema exibe o relatório: desempenho médio, pontos fortes, áreas de desenvolvimento, conquistas e recomendações.
+    \item O Mestre pode gerar nova carta com período diferente (retorna ao passo 3) ou fechar a janela.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 1 --- Explorador sem registros no período} (inicia no passo 5):
+\begin{enumerate}
+    \item O sistema não encontra registros de atividades no período selecionado.
+    \item O sistema exibe aviso: ``Nenhuma atividade registrada para o período selecionado. Tente um período mais amplo.''
+    \item O fluxo retorna ao passo 3 do Fluxo Principal para nova seleção de período.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 2 --- Nenhum Explorador encontrado na turma} (inicia no passo 1):
+\begin{enumerate}
+    \item A ``Visão de Turmas'' não exibe Exploradores cadastrados para o Mestre autenticado.
+    \item O sistema exibe mensagem: ``Nenhum Explorador encontrado. Verifique as turmas associadas ao seu perfil.''
+    \item O caso de uso é encerrado.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 3 --- Serviço de IA indisponível} (inicia no passo 6):
+\begin{enumerate}
+    \item O sistema tenta processar os dados com IA, mas o serviço não responde.
+    \item O sistema exibe: ``Serviço temporariamente indisponível. Tente novamente em instantes.''
+    \item A janela modal permanece aberta, permitindo nova tentativa pelo botão ``Gerar Carta''.
+\end{enumerate}
+
+\bigskip
+
+% ----- CENÁRIO 4 -----
+\subsubsection*{Cenário 4 --- CU03: Editar Avatar}
+
+\noindent\textbf{Ator principal:} Explorador (Aluno)
+
+\noindent\textbf{Pré-condição:} O Explorador está autenticado no sistema e encontra-se
+na tela do Perfil do Herói (CU02 em execução).
+
+\noindent\textbf{Pós-condição:} O Avatar do Explorador é atualizado no sistema e refletido
+em toda a interface da plataforma.
+
+\noindent\textbf{Relacionamentos UML:} \textit{<<extend>>} CU02 --- Visualizar Perfil do
+Herói (Editar Avatar é um comportamento opcional acionado a partir do perfil).
+
+\medskip
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+    \item A partir do Perfil do Herói (CU02), o Explorador aciona o botão de editar Avatar. \textbf{[A1]}
+    \item O sistema carrega a galeria de personalização: cor do personagem, tipo de olhos, boca e acessórios.
+    \item O Explorador seleciona uma opção da galeria.
+    \item O sistema exibe a pré-visualização em tempo real do Avatar com a alteração aplicada.
+    \item O Explorador repete os passos 3 e 4 até ficar satisfeito com o resultado.
+    \item O Explorador clica em ``Salvar Avatar''. \textbf{[A1]} \textbf{[A2]}
+    \item O sistema persiste as alterações e atualiza o Avatar em toda a interface.
+    \item O sistema retorna ao Perfil do Herói exibindo o novo Avatar.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 1 --- Explorador cancela a edição} (inicia no passo 1 ou 6):
+\begin{enumerate}
+    \item Em qualquer momento antes de confirmar no passo 6, o Explorador clica em ``Cancelar'' ou navega para outra tela.
+    \item O sistema descarta todas as alterações pendentes.
+    \item O Avatar permanece com a configuração anterior ao início da edição.
+    \item O sistema retorna ao Perfil do Herói sem modificações.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 2 --- Nenhuma alteração realizada} (inicia no passo 6):
+\begin{enumerate}
+    \item O Explorador chega ao passo 6 sem ter modificado nenhuma opção em relação ao Avatar atual.
+    \item O sistema detecta que não houve alteração.
+    \item O sistema retorna ao Perfil do Herói sem executar gravação.
+\end{enumerate}
+
+\bigskip
+
+% ----- CENÁRIO 5 -----
+\subsubsection*{Cenário 5 --- CU21: Visualizar e Corrigir Atividade}
+
+\noindent\textbf{Ator principal:} Mestre da Jornada (Professor)
+
+\noindent\textbf{Pré-condição:} O Mestre está autenticado no sistema e existe ao menos
+uma atividade realizada por um Explorador com status ``PENDENTE'' ou ``EM REVISÃO''.
+
+\noindent\textbf{Pós-condição:} Nota final da atividade registrada e status atualizado
+para ``CORRIGIDA'' no objeto \textit{ResultadoAtividade}.
+
+\noindent\textbf{Relacionamentos UML:} \textit{<<include>>} Calcular Nota Automática
+(executado pelo sistema ao carregar os detalhes da atividade no painel lateral).
+
+\medskip
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+    \item O Mestre acessa ``Correção de Atividades'' no painel principal. \textbf{[A1]}
+    \item O sistema exibe tabela com todas as atividades realizadas: aluno, turma, atividade, data, status e nota automática.
+    \item O Mestre aplica filtros por turma, atividade ou nome do aluno para localizar a atividade desejada. \textbf{[A1]}
+    \item O Mestre clica em uma linha da tabela para abrir o painel lateral de detalhes.
+    \item O sistema executa \textit{<<include>>} Calcular Nota Automática: processa e exibe as respostas do Explorador de forma visual (grade de figuras, canteiros, lista de palavras etc.) junto à nota calculada.
+    \item O Mestre analisa as respostas e, se necessário, edita o campo ``Nota Final''. \textbf{[A2]} \textbf{[A3]}
+    \item O Mestre clica em ``Salvar Nota''.
+    \item O sistema registra a nota final no objeto \textit{ResultadoAtividade} e atualiza o status para ``CORRIGIDA''.
+    \item O sistema fecha o painel lateral e retorna à tabela com os dados atualizados.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 1 --- Nenhuma atividade encontrada} (inicia no passo 1 ou 3):
+\begin{enumerate}
+    \item A tabela não exibe resultados (nenhuma atividade cadastrada ou filtro muito restritivo).
+    \item O sistema exibe mensagem: ``Nenhuma atividade encontrada.''
+    \item O Mestre pode limpar os filtros pelo botão ``MOSTRAR TUDO'' e retornar ao passo 2, ou encerrar o caso de uso.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 2 --- Mestre aceita a nota automática sem alteração} (inicia no passo 6):
+\begin{enumerate}
+    \item O Mestre considera a nota automática adequada e não altera o campo ``Nota Final''.
+    \item O fluxo avança diretamente ao passo 7 do Fluxo Principal.
+\end{enumerate}
+
+\textbf{Fluxo Alternativo 3 --- Nota inserida fora do intervalo válido} (inicia no passo 6):
+\begin{enumerate}
+    \item O Mestre digita um valor inválido no campo ``Nota Final'' (fora do intervalo 0--100).
+    \item O sistema exibe indicação de erro no campo e mantém o botão ``Salvar Nota'' desabilitado.
+    \item O fluxo retorna ao passo 6 do Fluxo Principal para nova entrada.
+\end{enumerate}
+
+
 \section{DIAGRAMA DE CLASSES}
 
 O Diagrama de Classes representa a estrutura estática do sistema,
@@ -1021,13 +1270,6 @@ responsáveis; e o \textit{PainelAnalitico}, disponível ao
 \textit{Pedagogo} para acompanhar a evolução das turmas filtradas
 por ano letivo.
 
-\begin{figure}[H]
-    \centering
-    \caption*{Organização do Modelo de Classes.}
-    \includegraphics[width=0.45\textwidth]{diagramas/arvore-classes.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
-\end{figure}
-
 \begin{landscape}
 \begin{figure}[H]
     \centering
@@ -1037,7 +1279,14 @@ por ano letivo.
     \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
 \end{figure}
 \end{landscape}
- 
+
+\begin{figure}[H]
+    \centering
+    \caption*{Organização do Modelo de Classes.}
+    \includegraphics[width=0.45\textwidth]{diagramas/arvore-classes.png}
+    \caption*{\small\textit{Fonte: Autoria própria, 2026. Gerado via Astah Professional.}}
+\end{figure}
+
 \clearpage
  
 \section{DIAGRAMAS DE SEQUÊNCIA}
@@ -1048,14 +1297,6 @@ entre os participantes para a realização de cada funcionalidade.
 Foram elaborados três diagramas, escolhidos de forma a cobrir
 fluxos distintos entre si: autenticação via hardware, gerenciamento
 administrativo e personalização do perfil do aluno.
-
-\begin{figure}[H]
-    \centering
-    \caption{Organização dos Diagramas de Sequência no Projeto}
-    \label{fig:arvore_sequencia}
-    \includegraphics[width=0.5\textwidth]{diagramas/arvore-sequencia.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
-\end{figure}
 
 \subsection{Login do Explorador via NFC/QR Code}
  
@@ -1120,7 +1361,15 @@ aluno em toda a interface.
     \includegraphics[width=\textwidth]{diagramas/seq3_avatar.png}
     \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
 \end{figure}
- 
+
+\begin{figure}[H]
+    \centering
+    \caption{Organização dos Diagramas de Sequência no Projeto}
+    \label{fig:arvore_sequencia}
+    \includegraphics[width=0.5\textwidth]{diagramas/arvore-sequencia.png}
+    \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
+\end{figure}
+
 \section{DIAGRAMA DE COMUNICAÇÃO}
 
 O Diagrama de Comunicação, também denominado Diagrama de
@@ -1130,14 +1379,6 @@ Diagrama de Sequência, que enfatiza a ordem temporal das
 mensagens. As mensagens são numeradas sequencialmente para
 indicar a ordem de execução do fluxo.
 
-\begin{figure}[H]
-    \centering
-    \caption{Organização do Diagrama de Comunicação no Projeto}
-    \label{fig:arvore_comunicacao}
-    \includegraphics[width=0.5\textwidth]{diagramas/arvore-comunicacao.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
-\end{figure}
- 
 O diagrama da Figura~\ref{fig:com_turma} foi elaborado com base
 no fluxo de cadastro de turma, correspondente ao Diagrama de
 Sequência apresentado na Seção~\ref{sec:seq_turma}. Os quatro
@@ -1159,7 +1400,15 @@ retorna a mensagem de sucesso ao \textit{Pedagogo} (mensagem 12).
     \includegraphics[width=\textwidth]{diagramas/com_turma.png}
     \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
 \end{figure}
- 
+
+\begin{figure}[H]
+    \centering
+    \caption{Organização do Diagrama de Comunicação no Projeto}
+    \label{fig:arvore_comunicacao}
+    \includegraphics[width=0.5\textwidth]{diagramas/arvore-comunicacao.png}
+    \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
+\end{figure}
+
 \section{DIAGRAMAS DE ATIVIDADES}
  
 O Diagrama de Atividades descreve o fluxo de controle entre
@@ -1171,14 +1420,6 @@ natureza do elemento modelado.
 \subsection{Operação calcularNota() — Classe JogoMemoria
             \texorpdfstring{\\}{}
             \normalfont\small[Visão de Projeto]}
-
-\begin{figure}[H]
-    \centering
-    \caption{Organização do Diagrama de Atividades 1 no Projeto}
-    \label{fig:arvore_atividade1}
-    \includegraphics[width=0.5\textwidth]{diagramas/arvore-atividade1.png}
-    \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
-\end{figure}
 
 O diagrama da Figura~\ref{fig:atv_nota} representa a lógica
 interna da operação \texttt{calcularNota()} pertencente à classe
@@ -1201,18 +1442,18 @@ o Explorador sempre receba um retorno positivo pelo esforço.
     \includegraphics[width=0.65\textwidth]{diagramas/atv1_calcularNota.png}
     \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
 \end{figure}
- 
-\subsection{Caso de Uso: Cadastrar Explorador
-            \texorpdfstring{\\}{}
-            \normalfont\small[Visão de Casos de Uso]}
 
 \begin{figure}[H]
     \centering
-    \caption{Organização do Diagrama de Atividades 2 no Projeto}
-    \label{fig:arvore_atividade2}
-    \includegraphics[width=0.5\textwidth]{diagramas/arvore-atividade2.png}
+    \caption{Organização do Diagrama de Atividades 1 no Projeto}
+    \label{fig:arvore_atividade1}
+    \includegraphics[width=0.5\textwidth]{diagramas/arvore-atividade1.png}
     \caption*{\small\textit{Fonte: Autoria própria, 2026.}}
 \end{figure}
+
+\subsection{Caso de Uso: Cadastrar Explorador
+            \texorpdfstring{\\}{}
+            \normalfont\small[Visão de Casos de Uso]}
 
 O diagrama da Figura~\ref{fig:atv_explorador} modela o fluxo
 do caso de uso ``Cadastrar Explorador'', sendo posicionado na
