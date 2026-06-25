@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.16)  25 JUN 2026 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.16)  25 JUN 2026 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -817,11 +817,11 @@ Package pdftex.def Info: diagramas/seq1_login.png  used on input line 1319.
  [58
 
 ]
-<diagramas/seq2_cadas_turma.png, id=627, 1006.51031pt x 1327.96124pt>
+<diagramas/seq2_cadas_turma.png, id=627, 1044.90375pt x 1327.96124pt>
 File: diagramas/seq2_cadas_turma.png Graphic file (type png)
 <use diagramas/seq2_cadas_turma.png>
 Package pdftex.def Info: diagramas/seq2_cadas_turma.png  used on input line 1341.
-(pdftex.def)             Requested size: 455.24411pt x 600.63676pt.
+(pdftex.def)             Requested size: 455.24411pt x 578.57031pt.
  [59 <./diagramas/seq1_login.png>] [60 <./diagramas/seq2_cadas_turma.png>]
 <diagramas/seq3_avatar.png, id=640, 791.95876pt x 861.2175pt>
 File: diagramas/seq3_avatar.png Graphic file (type png)
@@ -910,7 +910,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,1320b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on projeto_APOO.pdf (77 pages, 8032345 bytes).
+Output written on projeto_APOO.pdf (77 pages, 8038650 bytes).
 PDF statistics:
  827 PDF objects out of 1000 (max. 8388607)
  627 compressed objects within 7 object streams
