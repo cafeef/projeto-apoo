@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.16)  17 JUN 2026 00:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.16)  25 JUN 2026 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,7 +478,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...8.2}Classe Explorador}{62}{subsection.8.2}
+l.28 ...ne {8.1}Classe Missao}{69}{subsection.8.1}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `projeto_APOO.toc'.
@@ -489,7 +489,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.176 
        [1]
-<visao-explorador/tela01_home.png, id=167, 1101.11375pt x 823.075pt>
+<visao-explorador/tela01_home.png, id=172, 1101.11375pt x 823.075pt>
 File: visao-explorador/tela01_home.png Graphic file (type png)
 <use visao-explorador/tela01_home.png>
 Package pdftex.def Info: visao-explorador/tela01_home.png  used on input line 199.
@@ -500,7 +500,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.202 \textbf{Tela Inicial (Home):}
                                     Atua como o ponto de entrada principal (... [2]
-<visao-explorador/tela02_acesso.png, id=172, 1101.11375pt x 823.075pt>
+<visao-explorador/tela02_acesso.png, id=177, 1101.11375pt x 823.075pt>
 File: visao-explorador/tela02_acesso.png Graphic file (type png)
 <use visao-explorador/tela02_acesso.png>
 Package pdftex.def Info: visao-explorador/tela02_acesso.png  used on input line 212.
@@ -514,105 +514,105 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<visao-explorador/tela03_mural.png, id=179, 1101.11375pt x 823.075pt>
+<visao-explorador/tela03_mural.png, id=184, 1101.11375pt x 823.075pt>
 File: visao-explorador/tela03_mural.png Graphic file (type png)
 <use visao-explorador/tela03_mural.png>
 Package pdftex.def Info: visao-explorador/tela03_mural.png  used on input line 225.
 (pdftex.def)             Requested size: 386.96027pt x 289.24855pt.
  [4 <./visao-explorador/tela02_acesso.png>]
-<visao-explorador/tela04_avatar.png, id=188, 1101.11375pt x 823.075pt>
+<visao-explorador/tela04_avatar.png, id=193, 1101.11375pt x 823.075pt>
 File: visao-explorador/tela04_avatar.png Graphic file (type png)
 <use visao-explorador/tela04_avatar.png>
 Package pdftex.def Info: visao-explorador/tela04_avatar.png  used on input line 238.
 (pdftex.def)             Requested size: 386.96027pt x 289.24855pt.
  [5 <./visao-explorador/tela03_mural.png>]
-<visao-explorador/tela05_perfil1.png, id=195, 1656.1875pt x 617.30624pt>
+<visao-explorador/tela05_perfil1.png, id=200, 1656.1875pt x 617.30624pt>
 File: visao-explorador/tela05_perfil1.png Graphic file (type png)
 <use visao-explorador/tela05_perfil1.png>
 Package pdftex.def Info: visao-explorador/tela05_perfil1.png  used on input line 250.
 (pdftex.def)             Requested size: 386.96027pt x 144.22867pt.
  [6 <./visao-explorador/tela04_avatar.png> <./visao-explorador/tela05_perfil1.png>]
-<visao-explorador/tela07_mapa.png, id=203, 1097.09875pt x 824.07875pt>
+<visao-explorador/tela07_mapa.png, id=208, 1097.09875pt x 824.07875pt>
 File: visao-explorador/tela07_mapa.png Graphic file (type png)
 <use visao-explorador/tela07_mapa.png>
 Package pdftex.def Info: visao-explorador/tela07_mapa.png  used on input line 263.
 (pdftex.def)             Requested size: 386.96027pt x 290.65755pt.
-<visao-explorador/tela08_culinaria_exec.png, id=204, 1656.1875pt x 617.30624pt>
+<visao-explorador/tela08_culinaria_exec.png, id=209, 1656.1875pt x 617.30624pt>
 File: visao-explorador/tela08_culinaria_exec.png Graphic file (type png)
 <use visao-explorador/tela08_culinaria_exec.png>
 Package pdftex.def Info: visao-explorador/tela08_culinaria_exec.png  used on input line 277.
 (pdftex.def)             Requested size: 386.96027pt x 144.22867pt.
  [7 <./visao-explorador/tela07_mapa.png>]
-<visao-explorador/tela10_pintura_exec.png, id=211, 1656.1875pt x 617.30624pt>
+<visao-explorador/tela10_pintura_exec.png, id=216, 1656.1875pt x 617.30624pt>
 File: visao-explorador/tela10_pintura_exec.png Graphic file (type png)
 <use visao-explorador/tela10_pintura_exec.png>
 Package pdftex.def Info: visao-explorador/tela10_pintura_exec.png  used on input line 296.
 (pdftex.def)             Requested size: 386.96027pt x 144.22867pt.
  [8 <./visao-explorador/tela08_culinaria_exec.png> <./visao-explorador/tela10_pintura_exec.png>]
-<visao-explorador/tela12_jardinagem_exec.png, id=218, 1656.1875pt x 617.30624pt>
+<visao-explorador/tela12_jardinagem_exec.png, id=223, 1656.1875pt x 617.30624pt>
 File: visao-explorador/tela12_jardinagem_exec.png Graphic file (type png)
 <use visao-explorador/tela12_jardinagem_exec.png>
 Package pdftex.def Info: visao-explorador/tela12_jardinagem_exec.png  used on input line 314.
 (pdftex.def)             Requested size: 386.96027pt x 144.22867pt.
-<visao-explorador/tela14_quebracabeca_exec.png, id=219, 1656.1875pt x 617.30624pt>
+<visao-explorador/tela14_quebracabeca_exec.png, id=224, 1656.1875pt x 617.30624pt>
 File: visao-explorador/tela14_quebracabeca_exec.png Graphic file (type png)
 <use visao-explorador/tela14_quebracabeca_exec.png>
 Package pdftex.def Info: visao-explorador/tela14_quebracabeca_exec.png  used on input line 333.
 (pdftex.def)             Requested size: 386.96027pt x 144.22867pt.
  [9 <./visao-explorador/tela12_jardinagem_exec.png>]
-<visao-explorador/tela16_emblemas.png, id=225, 1083.04625pt x 806.01125pt>
+<visao-explorador/tela16_emblemas.png, id=230, 1083.04625pt x 806.01125pt>
 File: visao-explorador/tela16_emblemas.png Graphic file (type png)
 <use visao-explorador/tela16_emblemas.png>
 Package pdftex.def Info: visao-explorador/tela16_emblemas.png  used on input line 351.
 (pdftex.def)             Requested size: 386.96027pt x 287.97466pt.
  [10 <./visao-explorador/tela14_quebracabeca_exec.png>]
-<visao-explorador/tela17_evolucao.png, id=232, 1101.11375pt x 823.075pt>
+<visao-explorador/tela17_evolucao.png, id=237, 1101.11375pt x 823.075pt>
 File: visao-explorador/tela17_evolucao.png Graphic file (type png)
 <use visao-explorador/tela17_evolucao.png>
 Package pdftex.def Info: visao-explorador/tela17_evolucao.png  used on input line 364.
 (pdftex.def)             Requested size: 386.96027pt x 289.24855pt.
  [11 <./visao-explorador/tela16_emblemas.png>]
-<visao-explorador/tela18_diario.png, id=239, 1101.11375pt x 823.075pt>
+<visao-explorador/tela18_diario.png, id=244, 1101.11375pt x 823.075pt>
 File: visao-explorador/tela18_diario.png Graphic file (type png)
 <use visao-explorador/tela18_diario.png>
 Package pdftex.def Info: visao-explorador/tela18_diario.png  used on input line 377.
 (pdftex.def)             Requested size: 386.96027pt x 289.24855pt.
  [12 <./visao-explorador/tela17_evolucao.png>]
-<visao-mestre/adm01_login_selecao.png, id=246, 1101.11375pt x 823.075pt>
+<visao-mestre/adm01_login_selecao.png, id=251, 1101.11375pt x 823.075pt>
 File: visao-mestre/adm01_login_selecao.png Graphic file (type png)
 <use visao-mestre/adm01_login_selecao.png>
 Package pdftex.def Info: visao-mestre/adm01_login_selecao.png  used on input line 398.
 (pdftex.def)             Requested size: 386.96027pt x 289.24855pt.
  [13 <./visao-explorador/tela18_diario.png>]
-<visao-mestre/adm02_login_form.png, id=253, 1101.11375pt x 823.075pt>
+<visao-mestre/adm02_login_form.png, id=258, 1101.11375pt x 823.075pt>
 File: visao-mestre/adm02_login_form.png Graphic file (type png)
 <use visao-mestre/adm02_login_form.png>
 Package pdftex.def Info: visao-mestre/adm02_login_form.png  used on input line 410.
 (pdftex.def)             Requested size: 386.96027pt x 289.24855pt.
  [14 <./visao-mestre/adm01_login_selecao.png>]
-<visao-mestre/adm03_painel_mestre.png, id=260, 837.1275pt x 776.14969pt>
+<visao-mestre/adm03_painel_mestre.png, id=265, 837.1275pt x 776.14969pt>
 File: visao-mestre/adm03_painel_mestre.png Graphic file (type png)
 <use visao-mestre/adm03_painel_mestre.png>
 Package pdftex.def Info: visao-mestre/adm03_painel_mestre.png  used on input line 421.
 (pdftex.def)             Requested size: 386.96027pt x 358.76228pt.
-<visao-mestre/adm24_painel_mestre_scroll.png, id=261, 1094.0875pt x 816.04875pt>
+<visao-mestre/adm24_painel_mestre_scroll.png, id=266, 1094.0875pt x 816.04875pt>
 File: visao-mestre/adm24_painel_mestre_scroll.png Graphic file (type png)
 <use visao-mestre/adm24_painel_mestre_scroll.png>
 Package pdftex.def Info: visao-mestre/adm24_painel_mestre_scroll.png  used on input line 427.
 (pdftex.def)             Requested size: 386.96027pt x 288.62225pt.
  [15 <./visao-mestre/adm02_login_form.png>] [16 <./visao-mestre/adm03_painel_mestre.png>]
-<visao-mestre/adm_visao_turmas_nova.png, id=274, 1091.07625pt x 816.04875pt>
+<visao-mestre/adm_visao_turmas_nova.png, id=279, 1091.07625pt x 816.04875pt>
 File: visao-mestre/adm_visao_turmas_nova.png Graphic file (type png)
 <use visao-mestre/adm_visao_turmas_nova.png>
 Package pdftex.def Info: visao-mestre/adm_visao_turmas_nova.png  used on input line 440.
 (pdftex.def)             Requested size: 386.96027pt x 289.41917pt.
-<visao-mestre/adm_historico_modal.png, id=275, 1090.0725pt x 822.07124pt>
+<visao-mestre/adm_historico_modal.png, id=280, 1090.0725pt x 822.07124pt>
 File: visao-mestre/adm_historico_modal.png Graphic file (type png)
 <use visao-mestre/adm_historico_modal.png>
 Package pdftex.def Info: visao-mestre/adm_historico_modal.png  used on input line 446.
 (pdftex.def)             Requested size: 273.14923pt x 205.99396pt.
  [17 <./visao-mestre/adm24_painel_mestre_scroll.png>] [18 <./visao-mestre/adm_visao_turmas_nova.png> <./visao-mestre/adm_historico_modal.png>]
-<visao-mestre/adm07_editar_turma.png, id=287, 1101.11375pt x 823.075pt>
+<visao-mestre/adm07_editar_turma.png, id=292, 1101.11375pt x 823.075pt>
 File: visao-mestre/adm07_editar_turma.png Graphic file (type png)
 <use visao-mestre/adm07_editar_turma.png>
 Package pdftex.def Info: visao-mestre/adm07_editar_turma.png  used on input line 468.
@@ -621,294 +621,299 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 47
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [19 <./visao-mestre/adm07_editar_turma.png>]
-<visao-mestre/adm05_carta_ia_periodo.png, id=294, 1656.1875pt x 617.30624pt>
+<visao-mestre/adm05_carta_ia_periodo.png, id=299, 1656.1875pt x 617.30624pt>
 File: visao-mestre/adm05_carta_ia_periodo.png Graphic file (type png)
 <use visao-mestre/adm05_carta_ia_periodo.png>
 Package pdftex.def Info: visao-mestre/adm05_carta_ia_periodo.png  used on input line 481.
 (pdftex.def)             Requested size: 341.43307pt x 127.25504pt.
-<visao-mestre/adm_criar_tarefas_lista.png, id=295, 1091.07625pt x 816.04875pt>
+<visao-mestre/adm_criar_tarefas_lista.png, id=300, 1091.07625pt x 816.04875pt>
 File: visao-mestre/adm_criar_tarefas_lista.png Graphic file (type png)
 <use visao-mestre/adm_criar_tarefas_lista.png>
 Package pdftex.def Info: visao-mestre/adm_criar_tarefas_lista.png  used on input line 493.
 (pdftex.def)             Requested size: 386.96027pt x 289.41917pt.
-<visao-mestre/adm_criar_tarefas_filtros.png, id=296, 1092.08pt x 822.07124pt>
+<visao-mestre/adm_criar_tarefas_filtros.png, id=301, 1092.08pt x 822.07124pt>
 File: visao-mestre/adm_criar_tarefas_filtros.png Graphic file (type png)
 <use visao-mestre/adm_criar_tarefas_filtros.png>
 Package pdftex.def Info: visao-mestre/adm_criar_tarefas_filtros.png  used on input line 499.
 (pdftex.def)             Requested size: 386.96027pt x 291.27913pt.
  [20 <./visao-mestre/adm05_carta_ia_periodo.png>] [21 <./visao-mestre/adm_criar_tarefas_lista.png>]
-<visao-mestre/adm12_nova_tarefa_identificacao2.png, id=307, 1972.36874pt x 617.30624pt>
+<visao-mestre/adm12_nova_tarefa_identificacao2.png, id=312, 1972.36874pt x 617.30624pt>
 File: visao-mestre/adm12_nova_tarefa_identificacao2.png Graphic file (type png)
 <use visao-mestre/adm12_nova_tarefa_identificacao2.png>
 Package pdftex.def Info: visao-mestre/adm12_nova_tarefa_identificacao2.png  used on input line 518.
 (pdftex.def)             Requested size: 386.96027pt x 121.10422pt.
  [22 <./visao-mestre/adm_criar_tarefas_filtros.png>]
-<visao-mestre/adm14_nova_tarefa_recompensas.png, id=314, 1972.36874pt x 617.30624pt>
+<visao-mestre/adm14_nova_tarefa_recompensas.png, id=319, 1972.36874pt x 617.30624pt>
 File: visao-mestre/adm14_nova_tarefa_recompensas.png Graphic file (type png)
 <use visao-mestre/adm14_nova_tarefa_recompensas.png>
 Package pdftex.def Info: visao-mestre/adm14_nova_tarefa_recompensas.png  used on input line 532.
 (pdftex.def)             Requested size: 386.96027pt x 121.10422pt.
-<visao-mestre/adm16_nova_tarefa_ingredientes.png, id=315, 1972.36874pt x 617.30624pt>
+<visao-mestre/adm16_nova_tarefa_ingredientes.png, id=320, 1972.36874pt x 617.30624pt>
 File: visao-mestre/adm16_nova_tarefa_ingredientes.png Graphic file (type png)
 <use visao-mestre/adm16_nova_tarefa_ingredientes.png>
 Package pdftex.def Info: visao-mestre/adm16_nova_tarefa_ingredientes.png  used on input line 544.
 (pdftex.def)             Requested size: 386.96027pt x 121.10422pt.
  [23 <./visao-mestre/adm12_nova_tarefa_identificacao2.png> <./visao-mestre/adm14_nova_tarefa_recompensas.png>]
-<visao-mestre/adm18_nova_tarefa_desafio.png, id=323, 1285.80376pt x 819.06pt>
+<visao-mestre/adm18_nova_tarefa_desafio.png, id=328, 1285.80376pt x 819.06pt>
 File: visao-mestre/adm18_nova_tarefa_desafio.png Graphic file (type png)
 <use visao-mestre/adm18_nova_tarefa_desafio.png>
 Package pdftex.def Info: visao-mestre/adm18_nova_tarefa_desafio.png  used on input line 556.
 (pdftex.def)             Requested size: 386.96027pt x 246.49475pt.
  [24 <./visao-mestre/adm16_nova_tarefa_ingredientes.png> <./visao-mestre/adm18_nova_tarefa_desafio.png>]
-<visao-mestre/adm_nova_tarefa_figuras.png, id=332, 1286.8075pt x 777.90625pt>
+<visao-mestre/adm_nova_tarefa_figuras.png, id=337, 1286.8075pt x 777.90625pt>
 File: visao-mestre/adm_nova_tarefa_figuras.png Graphic file (type png)
 <use visao-mestre/adm_nova_tarefa_figuras.png>
 Package pdftex.def Info: visao-mestre/adm_nova_tarefa_figuras.png  used on input line 568.
 (pdftex.def)             Requested size: 386.96027pt x 233.91968pt.
-<visao-mestre/adm20_editar_tarefa.png, id=333, 1091.07625pt x 821.0675pt>
+<visao-mestre/adm20_editar_tarefa.png, id=338, 1091.07625pt x 821.0675pt>
 File: visao-mestre/adm20_editar_tarefa.png Graphic file (type png)
 <use visao-mestre/adm20_editar_tarefa.png>
 Package pdftex.def Info: visao-mestre/adm20_editar_tarefa.png  used on input line 581.
 (pdftex.def)             Requested size: 341.43307pt x 256.93376pt.
  [25 <./visao-mestre/adm_nova_tarefa_figuras.png>]
-<visao-mestre/adm21_extraclasse.png, id=339, 1091.07625pt x 821.0675pt>
+<visao-mestre/adm21_extraclasse.png, id=344, 1091.07625pt x 821.0675pt>
 File: visao-mestre/adm21_extraclasse.png Graphic file (type png)
 <use visao-mestre/adm21_extraclasse.png>
 Package pdftex.def Info: visao-mestre/adm21_extraclasse.png  used on input line 591.
 (pdftex.def)             Requested size: 386.96027pt x 291.19911pt.
  [26 <./visao-mestre/adm20_editar_tarefa.png>]
-<visao-mestre/adm22_emblemas_lista.png, id=346, 1656.1875pt x 617.30624pt>
+<visao-mestre/adm22_emblemas_lista.png, id=351, 1656.1875pt x 617.30624pt>
 File: visao-mestre/adm22_emblemas_lista.png Graphic file (type png)
 <use visao-mestre/adm22_emblemas_lista.png>
 Package pdftex.def Info: visao-mestre/adm22_emblemas_lista.png  used on input line 604.
 (pdftex.def)             Requested size: 386.96027pt x 144.22867pt.
  [27 <./visao-mestre/adm21_extraclasse.png>]
-<visao-mestre/adm_correcao_nova.png, id=353, 1092.08pt x 822.07124pt>
+<visao-mestre/adm_correcao_nova.png, id=358, 1092.08pt x 822.07124pt>
 File: visao-mestre/adm_correcao_nova.png Graphic file (type png)
 <use visao-mestre/adm_correcao_nova.png>
 Package pdftex.def Info: visao-mestre/adm_correcao_nova.png  used on input line 616.
 (pdftex.def)             Requested size: 386.96027pt x 291.27913pt.
-<visao-mestre/adm_correcao_painel.png, id=354, 1362.08875pt x 860.21375pt>
+<visao-mestre/adm_correcao_painel.png, id=359, 1362.08875pt x 860.21375pt>
 File: visao-mestre/adm_correcao_painel.png Graphic file (type png)
 <use visao-mestre/adm_correcao_painel.png>
 Package pdftex.def Info: visao-mestre/adm_correcao_painel.png  used on input line 622.
 (pdftex.def)             Requested size: 386.96027pt x 244.37592pt.
  [28 <./visao-mestre/adm22_emblemas_lista.png>] [29 <./visao-mestre/adm_correcao_nova.png> <./visao-mestre/adm_correcao_painel.png>]
-<visao-mestre/adm_mapa_explorador_mestre.png, id=367, 1091.07625pt x 816.04875pt>
+<visao-mestre/adm_mapa_explorador_mestre.png, id=372, 1091.07625pt x 816.04875pt>
 File: visao-mestre/adm_mapa_explorador_mestre.png Graphic file (type png)
 <use visao-mestre/adm_mapa_explorador_mestre.png>
 Package pdftex.def Info: visao-mestre/adm_mapa_explorador_mestre.png  used on input line 642.
 (pdftex.def)             Requested size: 386.96027pt x 289.41917pt.
  [30 <./visao-mestre/adm_mapa_explorador_mestre.png>]
-<visao-guardiao/adm29_login_guardiao.png, id=373, 1091.07625pt x 821.0675pt>
+<visao-guardiao/adm29_login_guardiao.png, id=378, 1091.07625pt x 821.0675pt>
 File: visao-guardiao/adm29_login_guardiao.png Graphic file (type png)
 <use visao-guardiao/adm29_login_guardiao.png>
 Package pdftex.def Info: visao-guardiao/adm29_login_guardiao.png  used on input line 662.
 (pdftex.def)             Requested size: 386.96027pt x 291.19911pt.
-<visao-guardiao/adm30_area_administrativa.png, id=374, 1091.07625pt x 821.0675pt>
+<visao-guardiao/adm30_area_administrativa.png, id=379, 1091.07625pt x 821.0675pt>
 File: visao-guardiao/adm30_area_administrativa.png Graphic file (type png)
 <use visao-guardiao/adm30_area_administrativa.png>
 Package pdftex.def Info: visao-guardiao/adm30_area_administrativa.png  used on input line 674.
 (pdftex.def)             Requested size: 386.96027pt x 291.19911pt.
  [31 <./visao-guardiao/adm29_login_guardiao.png>]
-<visao-guardiao/adm31_cadastro_explorador1.png, id=381, 828.84656pt x 719.68875pt>
+<visao-guardiao/adm31_cadastro_explorador1.png, id=386, 828.84656pt x 719.68875pt>
 File: visao-guardiao/adm31_cadastro_explorador1.png Graphic file (type png)
 <use visao-guardiao/adm31_cadastro_explorador1.png>
 Package pdftex.def Info: visao-guardiao/adm31_cadastro_explorador1.png  used on input line 688.
 (pdftex.def)             Requested size: 213.96529pt x 185.78589pt.
-<visao-guardiao/adm34_cadastro_explorador_sucesso.png, id=382, 1091.07625pt x 821.0675pt>
+<visao-guardiao/adm34_cadastro_explorador_sucesso.png, id=387, 1091.07625pt x 821.0675pt>
 File: visao-guardiao/adm34_cadastro_explorador_sucesso.png Graphic file (type png)
 <use visao-guardiao/adm34_cadastro_explorador_sucesso.png>
 Package pdftex.def Info: visao-guardiao/adm34_cadastro_explorador_sucesso.png  used on input line 695.
 (pdftex.def)             Requested size: 213.96529pt x 161.01582pt.
  [32 <./visao-guardiao/adm30_area_administrativa.png>]
-<visao-guardiao/adm33_cadastro_mestre.png, id=389, 828.09375pt x 652.68843pt>
+<visao-guardiao/adm33_cadastro_mestre.png, id=394, 828.09375pt x 652.68843pt>
 File: visao-guardiao/adm33_cadastro_mestre.png Graphic file (type png)
 <use visao-guardiao/adm33_cadastro_mestre.png>
 Package pdftex.def Info: visao-guardiao/adm33_cadastro_mestre.png  used on input line 717.
 (pdftex.def)             Requested size: 213.96529pt x 168.63931pt.
-<visao-guardiao/adm35_cadastro_mestre_sucesso.png, id=390, 1091.07625pt x 821.0675pt>
+<visao-guardiao/adm35_cadastro_mestre_sucesso.png, id=395, 1091.07625pt x 821.0675pt>
 File: visao-guardiao/adm35_cadastro_mestre_sucesso.png Graphic file (type png)
 <use visao-guardiao/adm35_cadastro_mestre_sucesso.png>
 Package pdftex.def Info: visao-guardiao/adm35_cadastro_mestre_sucesso.png  used on input line 724.
 (pdftex.def)             Requested size: 213.96529pt x 161.01582pt.
  [33 <./visao-guardiao/adm31_cadastro_explorador1.png> <./visao-guardiao/adm34_cadastro_explorador_sucesso.png>]
-<visao-guardiao/adm36_cadastro_turma1.png, id=397, 828.09375pt x 747.54282pt>
+<visao-guardiao/adm36_cadastro_turma1.png, id=402, 828.09375pt x 747.54282pt>
 File: visao-guardiao/adm36_cadastro_turma1.png Graphic file (type png)
 <use visao-guardiao/adm36_cadastro_turma1.png>
 Package pdftex.def Info: visao-guardiao/adm36_cadastro_turma1.png  used on input line 742.
 (pdftex.def)             Requested size: 386.96027pt x 349.32622pt.
  [34 <./visao-guardiao/adm33_cadastro_mestre.png> <./visao-guardiao/adm35_cadastro_mestre_sucesso.png>]
-<visao-guardiao/adm_painel_analitico_novo.png, id=405, 1097.09875pt x 824.07875pt>
+<visao-guardiao/adm_painel_analitico_novo.png, id=410, 1097.09875pt x 824.07875pt>
 File: visao-guardiao/adm_painel_analitico_novo.png Graphic file (type png)
 <use visao-guardiao/adm_painel_analitico_novo.png>
 Package pdftex.def Info: visao-guardiao/adm_painel_analitico_novo.png  used on input line 755.
 (pdftex.def)             Requested size: 386.96027pt x 290.65755pt.
  [35 <./visao-guardiao/adm36_cadastro_turma1.png>] [36 <./visao-guardiao/adm_painel_analitico_novo.png>]
-<diagramas/arvore-explorador.png, id=417, 450.68375pt x 488.82625pt>
-File: diagramas/arvore-explorador.png Graphic file (type png)
-<use diagramas/arvore-explorador.png>
-Package pdftex.def Info: diagramas/arvore-explorador.png  used on input line 792.
-(pdftex.def)             Requested size: 204.85846pt x 222.19998pt.
-<diagramas/cu-explorador.png, id=418, 736.25063pt x 1504.11937pt>
+<diagramas/cu-explorador.png, id=422, 736.25063pt x 1504.11937pt>
 File: diagramas/cu-explorador.png Graphic file (type png)
 <use diagramas/cu-explorador.png>
-Package pdftex.def Info: diagramas/cu-explorador.png  used on input line 799.
+Package pdftex.def Info: diagramas/cu-explorador.png  used on input line 792.
 (pdftex.def)             Requested size: 327.7763pt x 669.64085pt.
  [37
 
- <./diagramas/arvore-explorador.png>]
+]
 Overfull \vbox (48.39055pt too high) has occurred while \output is active []
 
- [38 <./diagramas/cu-explorador.png>] [39]
-<diagramas/arvore-mestre.png, id=435, 448.67625pt x 463.7325pt>
-File: diagramas/arvore-mestre.png Graphic file (type png)
-<use diagramas/arvore-mestre.png>
-Package pdftex.def Info: diagramas/arvore-mestre.png  used on input line 850.
-(pdftex.def)             Requested size: 204.85846pt x 211.72743pt.
-<diagramas/cu-mestredajornada.png, id=436, 777.65532pt x 1293.33188pt>
+ [38 <./diagramas/cu-explorador.png>]
+<diagramas/arvore-explorador.png, id=433, 450.68375pt x 488.82625pt>
+File: diagramas/arvore-explorador.png Graphic file (type png)
+<use diagramas/arvore-explorador.png>
+Package pdftex.def Info: diagramas/arvore-explorador.png  used on input line 831.
+(pdftex.def)             Requested size: 204.85846pt x 222.19998pt.
+ [39] [40 <./diagramas/arvore-explorador.png>]
+<diagramas/cu-mestredajornada.png, id=445, 777.65532pt x 1293.33188pt>
 File: diagramas/cu-mestredajornada.png Graphic file (type png)
 <use diagramas/cu-mestredajornada.png>
-Package pdftex.def Info: diagramas/cu-mestredajornada.png  used on input line 857.
+Package pdftex.def Info: diagramas/cu-mestredajornada.png  used on input line 850.
 (pdftex.def)             Requested size: 373.3035pt x 620.85146pt.
- [40 <./diagramas/arvore-mestre.png>] [41 <./diagramas/cu-mestredajornada.png>] [42]
-<diagramas/arvore-guardiao.png, id=454, 450.68375pt x 488.82625pt>
-File: diagramas/arvore-guardiao.png Graphic file (type png)
-<use diagramas/arvore-guardiao.png>
-Package pdftex.def Info: diagramas/arvore-guardiao.png  used on input line 903.
-(pdftex.def)             Requested size: 204.85846pt x 222.19998pt.
-<diagramas/cu-pedagogo.png, id=455, 697.10437pt x 1102.1175pt>
+ [41] [42 <./diagramas/cu-mestredajornada.png>]
+<diagramas/arvore-mestre.png, id=456, 448.67625pt x 463.7325pt>
+File: diagramas/arvore-mestre.png Graphic file (type png)
+<use diagramas/arvore-mestre.png>
+Package pdftex.def Info: diagramas/arvore-mestre.png  used on input line 885.
+(pdftex.def)             Requested size: 204.85846pt x 211.72743pt.
+ [43] [44 <./diagramas/arvore-mestre.png>]
+<diagramas/cu-pedagogo.png, id=467, 697.10437pt x 1102.1175pt>
 File: diagramas/cu-pedagogo.png Graphic file (type png)
 <use diagramas/cu-pedagogo.png>
-Package pdftex.def Info: diagramas/cu-pedagogo.png  used on input line 910.
+Package pdftex.def Info: diagramas/cu-pedagogo.png  used on input line 903.
 (pdftex.def)             Requested size: 373.3035pt x 590.19041pt.
- [43 <./diagramas/arvore-guardiao.png>] [44 <./diagramas/cu-pedagogo.png>] [45]
-Overfull \hbox (23.14333pt too wide) in paragraph at lines 977--986
+ [45] [46 <./diagramas/cu-pedagogo.png>]
+<diagramas/arvore-guardiao.png, id=479, 450.68375pt x 488.82625pt>
+File: diagramas/arvore-guardiao.png Graphic file (type png)
+<use diagramas/arvore-guardiao.png>
+Package pdftex.def Info: diagramas/arvore-guardiao.png  used on input line 930.
+(pdftex.def)             Requested size: 204.85846pt x 222.19998pt.
+ [47 <./diagramas/arvore-guardiao.png>] [48] [49] [50] [51] [52] [53]
+Overfull \hbox (23.14333pt too wide) in paragraph at lines 1226--1235
 \T1/ptm/m/n/12 (-20) res-pon-sá-vel. Ela ex-põe os mé-to-dos \T1/pcr/m/n/12 calcularTaxaEvolucao() \T1/ptm/m/n/12 (-20) e \T1/pcr/m/n/12 calcularNivelMedio()\T1/ptm/m/n/12 (-20) ,
  []
 
-[46]
-<diagramas/arvore-classes.png, id=477, 452.69125pt x 251.94125pt>
-File: diagramas/arvore-classes.png Graphic file (type png)
-<use diagramas/arvore-classes.png>
-Package pdftex.def Info: diagramas/arvore-classes.png  used on input line 1027.
-(pdftex.def)             Requested size: 204.85846pt x 114.01067pt.
- [47 <./diagramas/arvore-classes.png>]
+[54] [55]
 
 pdfTeX warning: pdflatex (file ./diagramas/diagrama-classes.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<diagramas/diagrama-classes.pdf, id=485, 3313.1278pt x 1657.69313pt>
+<diagramas/diagrama-classes.pdf, id=603, 3313.1278pt x 1657.69313pt>
 File: diagramas/diagrama-classes.pdf Graphic file (type pdf)
 <use diagramas/diagrama-classes.pdf>
-Package pdftex.def Info: diagramas/diagrama-classes.pdf  used on input line 1036.
+Package pdftex.def Info: diagramas/diagrama-classes.pdf  used on input line 1278.
 (pdftex.def)             Requested size: 674.29185pt x 337.37575pt.
-[48
+[56
 
  <./diagramas/diagrama-classes.pdf>]
-<diagramas/arvore-sequencia.png, id=493, 446.66875pt x 792.9625pt>
-File: diagramas/arvore-sequencia.png Graphic file (type png)
-<use diagramas/arvore-sequencia.png>
-Package pdftex.def Info: diagramas/arvore-sequencia.png  used on input line 1056.
-(pdftex.def)             Requested size: 227.62206pt x 404.10303pt.
- [49
+<diagramas/arvore-classes.png, id=611, 452.69125pt x 251.94125pt>
+File: diagramas/arvore-classes.png Graphic file (type png)
+<use diagramas/arvore-classes.png>
+Package pdftex.def Info: diagramas/arvore-classes.png  used on input line 1286.
+(pdftex.def)             Requested size: 204.85846pt x 114.01067pt.
+ [57
 
-
- <./diagramas/arvore-sequencia.png>]
-<diagramas/seq1_login.png, id=501, 858.20625pt x 840.13875pt>
+ <./diagramas/arvore-classes.png>]
+<diagramas/seq1_login.png, id=619, 858.20625pt x 840.13875pt>
 File: diagramas/seq1_login.png Graphic file (type png)
 <use diagramas/seq1_login.png>
-Package pdftex.def Info: diagramas/seq1_login.png  used on input line 1078.
+Package pdftex.def Info: diagramas/seq1_login.png  used on input line 1319.
 (pdftex.def)             Requested size: 455.24411pt x 445.656pt.
- [50]
-<diagramas/seq2_cadas_turma.png, id=508, 1006.51031pt x 1327.96124pt>
+ [58
+
+]
+<diagramas/seq2_cadas_turma.png, id=627, 1006.51031pt x 1327.96124pt>
 File: diagramas/seq2_cadas_turma.png Graphic file (type png)
 <use diagramas/seq2_cadas_turma.png>
-Package pdftex.def Info: diagramas/seq2_cadas_turma.png  used on input line 1100.
+Package pdftex.def Info: diagramas/seq2_cadas_turma.png  used on input line 1341.
 (pdftex.def)             Requested size: 455.24411pt x 600.63676pt.
- [51 <./diagramas/seq1_login.png>] [52 <./diagramas/seq2_cadas_turma.png>]
-<diagramas/seq3_avatar.png, id=522, 858.20625pt x 840.13875pt>
+ [59 <./diagramas/seq1_login.png>] [60 <./diagramas/seq2_cadas_turma.png>]
+<diagramas/seq3_avatar.png, id=640, 791.95876pt x 861.2175pt>
 File: diagramas/seq3_avatar.png Graphic file (type png)
 <use diagramas/seq3_avatar.png>
-Package pdftex.def Info: diagramas/seq3_avatar.png  used on input line 1120.
-(pdftex.def)             Requested size: 455.24411pt x 445.656pt.
- [53 <./diagramas/seq3_avatar.png>]
-<diagramas/arvore-comunicacao.png, id=529, 351.3125pt x 360.34625pt>
-File: diagramas/arvore-comunicacao.png Graphic file (type png)
-<use diagramas/arvore-comunicacao.png>
-Package pdftex.def Info: diagramas/arvore-comunicacao.png  used on input line 1137.
-(pdftex.def)             Requested size: 227.62206pt x 233.48pt.
-<diagramas/com_turma.png, id=532, 906.38625pt x 511.9125pt>
+Package pdftex.def Info: diagramas/seq3_avatar.png  used on input line 1361.
+(pdftex.def)             Requested size: 455.24411pt x 495.0648pt.
+ [61]
+<diagramas/arvore-sequencia.png, id=646, 446.66875pt x 792.9625pt>
+File: diagramas/arvore-sequencia.png Graphic file (type png)
+<use diagramas/arvore-sequencia.png>
+Package pdftex.def Info: diagramas/arvore-sequencia.png  used on input line 1369.
+(pdftex.def)             Requested size: 227.62206pt x 404.10303pt.
+ [62 <./diagramas/seq3_avatar.png>] [63 <./diagramas/arvore-sequencia.png>]
+<diagramas/com_turma.png, id=661, 906.38625pt x 511.9125pt>
 File: diagramas/com_turma.png Graphic file (type png)
 <use diagramas/com_turma.png>
-Package pdftex.def Info: diagramas/com_turma.png  used on input line 1159.
+Package pdftex.def Info: diagramas/com_turma.png  used on input line 1400.
 (pdftex.def)             Requested size: 455.24411pt x 257.11166pt.
- [54 <./diagramas/arvore-comunicacao.png>]
-<diagramas/arvore-atividade1.png, id=540, 347.2975pt x 281.05pt>
-File: diagramas/arvore-atividade1.png Graphic file (type png)
-<use diagramas/arvore-atividade1.png>
-Package pdftex.def Info: diagramas/arvore-atividade1.png  used on input line 1179.
-(pdftex.def)             Requested size: 227.62206pt x 184.20702pt.
- [55 <./diagramas/com_turma.png>]
-<diagramas/atv1_calcularNota.png, id=547, 662.475pt x 673.01437pt>
+<diagramas/arvore-comunicacao.png, id=662, 351.3125pt x 360.34625pt>
+File: diagramas/arvore-comunicacao.png Graphic file (type png)
+<use diagramas/arvore-comunicacao.png>
+Package pdftex.def Info: diagramas/arvore-comunicacao.png  used on input line 1408.
+(pdftex.def)             Requested size: 227.62206pt x 233.48pt.
+ [64 <./diagramas/com_turma.png>]
+<diagramas/atv1_calcularNota.png, id=670, 662.475pt x 673.01437pt>
 File: diagramas/atv1_calcularNota.png Graphic file (type png)
 <use diagramas/atv1_calcularNota.png>
-Package pdftex.def Info: diagramas/atv1_calcularNota.png  used on input line 1201.
+Package pdftex.def Info: diagramas/atv1_calcularNota.png  used on input line 1442.
 (pdftex.def)             Requested size: 295.90588pt x 300.61494pt.
- [56 <./diagramas/arvore-atividade1.png>]
-<diagramas/arvore-atividade2.png, id=555, 351.3125pt x 345.29pt>
-File: diagramas/arvore-atividade2.png Graphic file (type png)
-<use diagramas/arvore-atividade2.png>
-Package pdftex.def Info: diagramas/arvore-atividade2.png  used on input line 1213.
-(pdftex.def)             Requested size: 227.62206pt x 223.72455pt.
- [57 <./diagramas/atv1_calcularNota.png>]
-<diagramas/atv2_cadastrarExplorador.png, id=562, 779.91376pt x 928.97063pt>
+ [65 <./diagramas/arvore-comunicacao.png>]
+<diagramas/arvore-atividade1.png, id=678, 347.2975pt x 281.05pt>
+File: diagramas/arvore-atividade1.png Graphic file (type png)
+<use diagramas/arvore-atividade1.png>
+Package pdftex.def Info: diagramas/arvore-atividade1.png  used on input line 1450.
+(pdftex.def)             Requested size: 227.62206pt x 184.20702pt.
+ [66 <./diagramas/atv1_calcularNota.png> <./diagramas/arvore-atividade1.png>]
+<diagramas/atv2_cadastrarExplorador.png, id=687, 779.91376pt x 928.97063pt>
 File: diagramas/atv2_cadastrarExplorador.png Graphic file (type png)
 <use diagramas/atv2_cadastrarExplorador.png>
-Package pdftex.def Info: diagramas/atv2_cadastrarExplorador.png  used on input line 1238.
+Package pdftex.def Info: diagramas/atv2_cadastrarExplorador.png  used on input line 1479.
 (pdftex.def)             Requested size: 455.24411pt x 542.24785pt.
- [58 <./diagramas/arvore-atividade2.png>] [59 <./diagramas/atv2_cadastrarExplorador.png>]
-<diagramas/arvore-estado1.png, id=576, 350.30875pt x 206.7725pt>
-File: diagramas/arvore-estado1.png Graphic file (type png)
-<use diagramas/arvore-estado1.png>
-Package pdftex.def Info: diagramas/arvore-estado1.png  used on input line 1257.
-(pdftex.def)             Requested size: 227.62206pt x 134.35951pt.
-<diagramas/est_missao.png, id=578, 663.98062pt x 714.41907pt>
+ [67]
+<diagramas/arvore-atividade2.png, id=693, 351.3125pt x 345.29pt>
+File: diagramas/arvore-atividade2.png Graphic file (type png)
+<use diagramas/arvore-atividade2.png>
+Package pdftex.def Info: diagramas/arvore-atividade2.png  used on input line 1487.
+(pdftex.def)             Requested size: 227.62206pt x 223.72455pt.
+ [68 <./diagramas/atv2_cadastrarExplorador.png>]
+<diagramas/est_missao.png, id=700, 663.98062pt x 714.41907pt>
 File: diagramas/est_missao.png Graphic file (type png)
 <use diagramas/est_missao.png>
-Package pdftex.def Info: diagramas/est_missao.png  used on input line 1279.
+Package pdftex.def Info: diagramas/est_missao.png  used on input line 1520.
 (pdftex.def)             Requested size: 341.43307pt x 367.36852pt.
- [60 <./diagramas/arvore-estado1.png>]
-<diagramas/arvore-estado2.png, id=586, 348.30125pt x 224.84pt>
-File: diagramas/arvore-estado2.png Graphic file (type png)
-<use diagramas/arvore-estado2.png>
-Package pdftex.def Info: diagramas/arvore-estado2.png  used on input line 1289.
-(pdftex.def)             Requested size: 227.62206pt x 146.93677pt.
- [61 <./diagramas/est_missao.png>]
-<diagramas/est_explorador.png, id=593, 728.7225pt x 898.10532pt>
+ [69 <./diagramas/arvore-atividade2.png>]
+<diagramas/arvore-estado1.png, id=708, 350.30875pt x 206.7725pt>
+File: diagramas/arvore-estado1.png Graphic file (type png)
+<use diagramas/arvore-estado1.png>
+Package pdftex.def Info: diagramas/arvore-estado1.png  used on input line 1528.
+(pdftex.def)             Requested size: 227.62206pt x 134.35951pt.
+ [70 <./diagramas/est_missao.png> <./diagramas/arvore-estado1.png>]
+<diagramas/est_explorador.png, id=718, 728.7225pt x 898.10532pt>
 File: diagramas/est_explorador.png Graphic file (type png)
 <use diagramas/est_explorador.png>
-Package pdftex.def Info: diagramas/est_explorador.png  used on input line 1316.
+Package pdftex.def Info: diagramas/est_explorador.png  used on input line 1557.
 (pdftex.def)             Requested size: 455.24411pt x 561.05408pt.
- [62 <./diagramas/arvore-estado2.png>] [63 <./diagramas/est_explorador.png>] [64] (./projeto_APOO.aux)
+ [71]
+<diagramas/arvore-estado2.png, id=724, 348.30125pt x 224.84pt>
+File: diagramas/arvore-estado2.png Graphic file (type png)
+<use diagramas/arvore-estado2.png>
+Package pdftex.def Info: diagramas/arvore-estado2.png  used on input line 1565.
+(pdftex.def)             Requested size: 227.62206pt x 146.93677pt.
+ [72 <./diagramas/est_explorador.png>] [73 <./diagramas/arvore-estado2.png>] [74] (./projeto_APOO.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `projeto_APOO.out' has not changed.
-(rerunfilecheck)             Checksum: B73A557942C2D85FFD20189742E9240A;5588.
+(rerunfilecheck)             Checksum: C90C1C00F1D03508DD89FD6A30889997;5786.
  ) 
 Here is how much of TeX's memory you used:
- 16009 strings out of 474222
- 269340 string characters out of 5748733
+ 16109 strings out of 474222
+ 270057 string characters out of 5748733
  1933975 words of memory out of 5000000
- 37546 multiletter control sequences out of 15000+600000
- 614172 words of font info for 300 fonts, out of 8000000 for 9000
+ 37547 multiletter control sequences out of 15000+600000
+ 614426 words of font info for 304 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,1320b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on projeto_APOO.pdf (67 pages, 8017807 bytes).
+Output written on projeto_APOO.pdf (77 pages, 8029670 bytes).
 PDF statistics:
- 677 PDF objects out of 1000 (max. 8388607)
- 489 compressed objects within 5 object streams
- 159 named destinations out of 1000 (max. 500000)
- 57377 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 57385 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -7,23 +7,24 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Guardião (Pedagogo)}{31}{subsubsection.2.2.2}%
 \contentsline {section}{\numberline {3}DIAGRAMA DE CASOS DE USO}{36}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Perfil Explorador (Aluno)}{37}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Perfil Mestre da Jornada (Professor)}{40}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Perfil Pedagogo (Guardião)}{43}{subsection.3.3}%
-\contentsline {section}{\numberline {4}DIAGRAMA DE CLASSES}{45}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Hierarquia de Usuários}{45}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Identidade, Acesso e Personalização}{46}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Turmas e Habilidades}{46}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Missões e Atividades}{46}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Emblemas e Relatórios}{47}{subsection.4.5}%
-\contentsline {section}{\numberline {5}DIAGRAMAS DE SEQUÊNCIA}{49}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Login do Explorador via NFC/QR Code}{50}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Cadastrar Turma}{51}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Alterar Avatar}{53}{subsection.5.3}%
-\contentsline {section}{\numberline {6}DIAGRAMA DE COMUNICAÇÃO}{54}{section.6}%
-\contentsline {section}{\numberline {7}DIAGRAMAS DE ATIVIDADES}{55}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Operação calcularNota() — Classe JogoMemoria \\ \normalfont \small [Visão de Projeto]}{56}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Caso de Uso: Cadastrar Explorador \\ \normalfont \small [Visão de Casos de Uso]}{58}{subsection.7.2}%
-\contentsline {section}{\numberline {8}DIAGRAMAS DE ESTADO}{60}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Classe Missao}{60}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Classe Explorador}{62}{subsection.8.2}%
-\contentsline {section}{\numberline {9}DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL}{64}{section.9}%
+\contentsline {subsection}{\numberline {3.2}Perfil Mestre da Jornada (Professor)}{41}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Perfil Pedagogo (Guardião)}{45}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Cenários dos Casos de Uso}{48}{subsection.3.4}%
+\contentsline {section}{\numberline {4}DIAGRAMA DE CLASSES}{53}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hierarquia de Usuários}{54}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Identidade, Acesso e Personalização}{54}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Turmas e Habilidades}{54}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Missões e Atividades}{55}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Emblemas e Relatórios}{55}{subsection.4.5}%
+\contentsline {section}{\numberline {5}DIAGRAMAS DE SEQUÊNCIA}{58}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Login do Explorador via NFC/QR Code}{58}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Cadastrar Turma}{59}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Alterar Avatar}{61}{subsection.5.3}%
+\contentsline {section}{\numberline {6}DIAGRAMA DE COMUNICAÇÃO}{63}{section.6}%
+\contentsline {section}{\numberline {7}DIAGRAMAS DE ATIVIDADES}{65}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Operação calcularNota() — Classe JogoMemoria \\ \normalfont \small [Visão de Projeto]}{65}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Caso de Uso: Cadastrar Explorador \\ \normalfont \small [Visão de Casos de Uso]}{67}{subsection.7.2}%
+\contentsline {section}{\numberline {8}DIAGRAMAS DE ESTADO}{69}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Classe Missao}{69}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Classe Explorador}{71}{subsection.8.2}%
+\contentsline {section}{\numberline {9}DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL}{73}{section.9}%

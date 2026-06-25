@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1781668015.97082 "/home/fernanda/Documentos/UTFPR/5 PERÍODO/ANÁLISE E PROJETO ORIENTADO A OBJETOS/projeto da disciplina/projeto-apoo/projeto_APOO.tex" "projeto_APOO.pdf" "projeto_APOO" 1781668021.23096 0
+["pdflatex"] 1782415153.72325 "/home/fernanda/Documentos/UTFPR/5 PERÍODO/ANÁLISE E PROJETO ORIENTADO A OBJETOS/projeto da disciplina/projeto-apoo/projeto_APOO.tex" "projeto_APOO.pdf" "projeto_APOO" 1782415158.90501 0
   "/etc/texmf/web2c/texmf.cnf" 1774362610.0047 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fernanda/Documentos/UTFPR/5 PERÍODO/ANÁLISE E PROJETO ORIENTADO A OBJETOS/projeto da disciplina/projeto-apoo/projeto_APOO.tex" 1781667631.08559 71622 961735bcb42181438f56ffa23dfa0bec ""
+  "/home/fernanda/Documentos/UTFPR/5 PERÍODO/ANÁLISE E PROJETO ORIENTADO A OBJETOS/projeto da disciplina/projeto-apoo/projeto_APOO.tex" 1782414909.14975 85067 4ca161d429064833827a7f663e159cc4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -135,11 +135,11 @@
   "diagramas/est_missao.png" 1781666779.55519 47424 4d79fa7a4ef1e88ad47322d87cca0e1e ""
   "diagramas/seq1_login.png" 1781664857.91635 69741 846d64a122567c2c9a51c08697ccd416 ""
   "diagramas/seq2_cadas_turma.png" 1781664870.41976 95682 708b4a57202ab584cb5dcee95b0a3ec7 ""
-  "diagramas/seq3_avatar.png" 1781664883.33094 69741 846d64a122567c2c9a51c08697ccd416 ""
-  "projeto_APOO.aux" 1781668021.14516 8447 818158d07f79952703f62715028d3b78 "pdflatex"
-  "projeto_APOO.out" 1781668021.14716 5588 b73a557942c2d85ffd20189742e9240a "pdflatex"
-  "projeto_APOO.tex" 1781667631.08559 71622 961735bcb42181438f56ffa23dfa0bec ""
-  "projeto_APOO.toc" 1781668021.14716 2645 5ea9c08f9357f5d0ccaff38e7704931d "pdflatex"
+  "diagramas/seq3_avatar.png" 1782415131.97101 62746 e13321f864a3b37e39b05f82a55bbb1f ""
+  "projeto_APOO.aux" 1782415158.81795 8581 7da4076937decc232ac4e79a0e47a1dd "pdflatex"
+  "projeto_APOO.out" 1782415158.81995 5786 c90c1c00f1d03508dd89fd6a30889997 "pdflatex"
+  "projeto_APOO.tex" 1782414909.14975 85067 4ca161d429064833827a7f663e159cc4 ""
+  "projeto_APOO.toc" 1782415158.82047 2738 c81dfe6bd1970d182a6401d75114f74c "pdflatex"
   "visao-explorador/tela01_home.png" 1781662124.7286 37922 cd73f7c680308996d3800cf97def6377 ""
   "visao-explorador/tela02_acesso.png" 1781662124.80862 50514 29c4bd434a35b4b374c2ff91b7d8e6c0 ""
   "visao-explorador/tela03_mural.png" 1781662124.89202 64367 24ca24f9183e127e63df4da6d625302a ""
